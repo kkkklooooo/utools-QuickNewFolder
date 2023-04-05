@@ -1,0 +1,21 @@
+{
+	"main": "index.html",
+	"preload":"./covid/preload.js",
+	"logo": "MicrosoftLogo.png",
+	"features": [
+		{
+		  "code": "hello",
+		  "explain": "hello world",
+			"cmds":[
+				"新建文件夹", "新建文件夹","new",
+				{
+					
+					"type": "files",
+					"label": "新建文件夹",
+					"fileType": "file",
+					"minLength": 1
+				}
+		]
+		}
+	]
+}

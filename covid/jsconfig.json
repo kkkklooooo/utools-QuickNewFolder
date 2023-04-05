@@ -1,0 +1,17 @@
+{
+    "include": [
+        "./src/**/*"
+    ],
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "~/*": [
+                "./src/*"
+            ]
+        },
+        "types": [
+            "webpack-env",
+            "bootstrap"
+        ]
+    }
+}
