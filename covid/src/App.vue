@@ -80,6 +80,7 @@ export default {
   },
   mounted() {
     utools.onPluginEnter(({ code, type, payload }) => {
+      this.isDisabled=false;
       this.g_payload = payload;
       console.log(this.g_payload);
       //this.addRow();

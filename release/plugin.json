@@ -1,6 +1,6 @@
 {
 	"main": "index.html",
-	"preload":"./covid/preload.js",
+	"preload":"preload.js",
 	"logo": "MicrosoftLogo.png",
 	"features": [
 		{
